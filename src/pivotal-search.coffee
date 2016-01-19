@@ -6,7 +6,7 @@
 #   HUBOT_PIVOTAL_PROJECTS
 #
 # Commands:
-#   hubot piv|otal <string> - returns list of matching Pivotal Tracker stories
+#   hubot piv|pivotal <string> - returns list of matching Pivotal Tracker stories
 #
 # Notes:
 #   <optional notes required for the script>
