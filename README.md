@@ -36,4 +36,13 @@ hubot>> 12345679 As a user I want… so I can… (unstarted) - https://www.pivot
         12345680 As a Internet Explorer user I want… so I can… (unstarted) - https://www.pivotaltracker.com/story/show/12345680
 ```
 
+### Search for a story ID
+
+```
+user1>> hubot pivotal 12345678
+hubot>> 12345678 As a mobile user I want… so I can… (unscheduled) - https://www.pivotaltracker.com/story/show/12345678
+```
+
+**Note:** this search will return stories which have the given ID and stories which mention that ID. To return only the story of that ID use Pivotal Tracker's ID filter `hubot pivotal id:12345678`.
+
 See [Pivotal Tracker search help](https://www.pivotaltracker.com/help/faq#howcanasearchberefined) for more parameters.
