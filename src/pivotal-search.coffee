@@ -28,9 +28,11 @@ module.exports = (robot) ->
           msg.send "Pivotal says: #{err}"
           return
         if res.statusCode != 500
+          results = []
           stories = JSON.parse body
           for story in stories
-            message = "#{story.id} #{story.name}"
-            message += " (#{story.current_state})" if story.current_state
-            message += " - #{story.url}"
-            msg.send message
+            result = "#{story.id} #{story.name}"
+            result += " (#{story.current_state})" if story.current_state
+            result += " - #{story.url}"
+            results.push result
+          msg.send results.join("\n")
