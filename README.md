@@ -33,7 +33,6 @@ hubot>> 12345678 As a mobile user I want… so I can… (unscheduled) - https://
 
 user1>> hubot piv owner:mh state:unstarted
 hubot>> 12345679 As a user I want… so I can… (unstarted) - https://www.pivotaltracker.com/story/show/12345679
-
         12345680 As a Internet Explorer user I want… so I can… (unstarted) - https://www.pivotaltracker.com/story/show/12345680
 ```
 
