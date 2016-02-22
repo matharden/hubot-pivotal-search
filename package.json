@@ -1,7 +1,7 @@
 {
   "name": "hubot-pivotal-search",
   "description": "Harness the full power of Pivotal Tracker's search",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Mat Harden <matharden@gmail.com>",
   "license": "MIT",
 
